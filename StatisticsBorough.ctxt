@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=StatisticsBorough
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ StatisticsBorough\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\ \r\n
+comment1.params=
+comment1.target=StatisticsBorough()
+comment1.text=\r\n\ Constructor\r\n
+comment2.params=
+comment2.target=StatisticsBorough\ getInstance()
+comment3.params=borough
+comment3.target=java.lang.Object[][]\ boroughData(java.lang.String)
+numComments=4

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ControllerSubGraph
+comment1.params=
+comment1.target=ControllerSubGraph()
+comment1.text=\n\ Constructor\n
+comment2.params=
+comment2.target=ControllerSubGraph\ getInstance()
+comment3.params=url\ resourceBundle
+comment3.target=void\ initialize(java.net.URL,\ java.util.ResourceBundle)
+comment4.params=
+comment4.target=void\ populateLineChart()
+numComments=5

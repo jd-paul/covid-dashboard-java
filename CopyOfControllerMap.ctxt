@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=CopyOfControllerMap
+comment0.text=\n\ Write\ a\ description\ of\ class\ CopyOfControllerMap\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=CopyOfControllerMap()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ CopyOfControllerMap\n
+comment2.params=
+comment2.target=CopyOfControllerMap\ getInstance()
+comment3.params=event
+comment3.target=void\ sampleEvent(java.awt.event.ActionEvent)
+numComments=4

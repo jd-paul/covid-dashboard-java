@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ViewMain
+comment0.text=\r\n\ Main\ class\ for\ initializing\ and\ launching\ the\ application.\r\n\ \r\n\ @author\ John\ Paul\ San\ Diego\r\n\ @author\ Jia\ Cheng\ Lim\r\n\ @author\ Argya\ Pramusakti\r\n\ @author\ Ahmed\ Almuallem\r\n
+comment1.params=stage
+comment1.target=void\ start(javafx.stage.Stage)
+comment1.text=\r\n\ Override\ the\ start()\ method\ of\ the\ Application\ class\ to\ configure\ the\ primary\ stage\ (main\ window)\ of\ the\ application.\r\n\ This\ method\ is\ called\ automatically\ when\ the\ application\ is\ launched.\r\n\ @param\ stage\ The\ primary\ stage\ for\ the\ application.\r\n\ @throws\ Exception\ If\ an\ error\ occurs\ during\ initialization.\r\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=\r\n\ The\ main\ entry\ point\ for\ the\ JavaFX\ application.\r\n\ @param\ args\ The\ command-line\ arguments\ passed\ to\ the\ application.\r\n
+comment3.params=
+comment3.target=void\ initialize()
+comment3.text=\r\n\ This\ method\ sets\ up\ the\ controller,\ initializes\ observers,\ and\ performs\ any\ other\ necessary\ setup\ tasks.\r\n
+numComments=4

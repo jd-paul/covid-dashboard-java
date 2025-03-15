@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ControllerGraph
+comment0.text=\r\n\ The\ ControllerGraph\ class\ controls\ the\ graphical\ representation\ of\ data\ in\ a\ line\ chart.\r\n\ It\ manages\ updating\ the\ line\ chart\ with\ new\ data\ points\ based\ on\ changes\ in\ the\ underlying\ data.\r\n\ \r\n\ @author\ John\ Paul\ San\ Diego\r\n\ @author\ Jia\ Cheng\ Lim\r\n\ @author\ Argya\ Pramusakti\r\n\ @author\ Ahmed\ Almuallem\r\n
+comment1.params=
+comment1.target=void\ updateCurrentPanel()
+comment1.text=\r\n\ Updates\ the\ current\ panel\ by\ populating\ the\ line\ chart\ with\ data\ points.\r\n\ This\ method\ is\ accessed\ by\ ControllerMain\ to\ update\ the\ graphical\ representation.\r\n
+comment2.params=
+comment2.target=void\ populateLineChart()
+comment2.text=\r\n\ Populates\ the\ line\ chart\ with\ data\ points.\r\n\ Data\ points\ are\ obtained\ from\ the\ underlying\ data\ source\ and\ added\ to\ the\ chart.\r\n
+numComments=3

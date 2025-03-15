@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="526.0" prefWidth="560.0" styleClass="map_polygon" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerMap">
+   <children>
+      <Group layoutX="60.0" layoutY="105.0" styleClass="map__polygon-5" stylesheets="@styles.css" AnchorPane.bottomAnchor="65.0" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="105.0">
+         <children>
+            <Button fx:id="btnBARN" layoutX="120.0" layoutY="50.0" mnemonicParsing="false" onAction="#handleBARNButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="BARN">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnHRGY" layoutX="180.0" layoutY="50.0" mnemonicParsing="false" onAction="#handleHRGYButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="HRGY">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnENFI" layoutX="210.0" mnemonicParsing="false" onAction="#handleENFIButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="ENFI">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnWALT" layoutX="240.0" layoutY="50.0" mnemonicParsing="false" onAction="#handleWALTButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="WALT">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnBREN" layoutX="90.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleBRENButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="BREN">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnCAMD" layoutX="150.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleCAMDButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="CAMD">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnISLI" layoutX="210.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleISLIButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="ISLI">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnREDB" layoutX="330.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleREDBButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="REDB">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnHAVE" layoutX="390.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleHAVEButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="HAVE">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnHACK" layoutX="270.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleHACKButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="HACK">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnHRRW" layoutX="30.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleHRRWButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="HRRW">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnKENS" layoutX="120.0" layoutY="150.0" mnemonicParsing="false" onAction="#handleKENSButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="KENS">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnHILL" layoutY="150.0" mnemonicParsing="false" onAction="#handleHILLButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="HILL">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnEALI" layoutX="60.0" layoutY="150.0" mnemonicParsing="false" onAction="#handleEALIButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="EALI">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnWSTM" layoutX="180.0" layoutY="150.0" mnemonicParsing="false" onAction="#handleWSTMButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="WSTM">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnTOWH" layoutX="240.0" layoutY="150.0" mnemonicParsing="false" onAction="#handleTOWHButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="TOWH">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnNEWH" layoutX="300.0" layoutY="150.0" mnemonicParsing="false" onAction="#handleNEWHButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="NEWH">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnBARK" layoutX="362.0" layoutY="150.0" mnemonicParsing="false" onAction="#handleBARKButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="BARK">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnHOUN" layoutX="30.0" layoutY="200.0" mnemonicParsing="false" onAction="#handleHOUNButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="HOUN">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnWAND" layoutX="150.0" layoutY="200.0" mnemonicParsing="false" onAction="#handleWANDButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="WAND">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnHAMM" layoutX="90.0" layoutY="200.0" mnemonicParsing="false" onAction="#handleHAMMButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="HAMM">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnBEXL" layoutX="330.0" layoutY="200.0" mnemonicParsing="false" onAction="#handleBEXLButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="BEXL">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnGWCH" layoutX="270.0" layoutY="200.0" mnemonicParsing="false" onAction="#handleGWCHButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="GWCH">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnCITY" layoutX="210.0" layoutY="200.0" mnemonicParsing="false" onAction="#handleCITYButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="CITY">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnLAMB" layoutX="180.0" layoutY="250.0" mnemonicParsing="false" onAction="#handleLAMBButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="LAMB">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnMERT" layoutX="120.0" layoutY="250.0" mnemonicParsing="false" onAction="#handleMERTButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="MERT">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnRICH" layoutX="60.0" layoutY="250.0" mnemonicParsing="false" onAction="#handleRICHButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="RICH">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnSTHW" layoutX="240.0" layoutY="250.0" mnemonicParsing="false" onAction="#handleSTHWButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="STHW">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnKING" layoutX="90.0" layoutY="300.0" mnemonicParsing="false" onAction="#handleKINGButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="KING">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnLEWS" layoutX="300.0" layoutY="250.0" mnemonicParsing="false" onAction="#handleLEWSButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="LEWS">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnSUTT" layoutX="150.0" layoutY="300.0" mnemonicParsing="false" onAction="#handleSUTTButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="SUTT">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnBROM" layoutX="270.0" layoutY="300.0" mnemonicParsing="false" onAction="#handleBROMButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="BROM">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnCROY" layoutX="210.0" layoutY="300.0" mnemonicParsing="false" onAction="#handleHACKButton" prefHeight="55.0" prefWidth="50.0" styleClass="map__polygon-1" stylesheets="@styles.css" text="CROY">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+         </children>
+      </Group>
+      <Label layoutX="14.0" layoutY="37.0" text="Click on a button to open a window for its statistics" AnchorPane.leftAnchor="13.0" />
+      <Label layoutX="14.0" layoutY="14.0" styleClass="text-h2" text="Hexagonal map of London" AnchorPane.leftAnchor="13.0" AnchorPane.topAnchor="14.0">
+         <font>
+            <Font name="Poppins Black" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="13.0" layoutY="55.0" text="To sort data by highest or lowest for a specific data point, click on the title" AnchorPane.leftAnchor="13.0" />
+   </children>
+</AnchorPane>

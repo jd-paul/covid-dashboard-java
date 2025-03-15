@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ControllerSubStat
+comment0.text=\r\n\ The\ ControllerSubStat\ class\ controls\ the\ display\ of\ information\ within\ the\ panel\ in\ the\ Statistics\ view.\r\n\ It\ updates\ the\ relevant\ text\ based\ on\ the\ provided\ statistics.\r\n\r\n\ @author\ John\ Paul\ San\ Diego\r\n\ @author\ Jia\ Cheng\ Lim\r\n\ @author\ Argya\ Pramusakti\r\n\ @author\ Ahmed\ Almuallem\r\n
+comment1.params=
+comment1.target=ControllerSubStat()
+comment1.text=\r\n\ Constructor\r\n
+comment2.params=
+comment2.target=ControllerSubStat\ getInstance()
+comment2.text=\r\nSingleton\ getInstance()\ method\r\n\r\n@return\ The\ singleton\ instance\ of\ ControllerSubStat\r\n
+comment3.params=text
+comment3.target=void\ updateStatistic(java.lang.String)
+comment3.text=\r\n\ Updates\ the\ displayed\ statistic\ text\ with\ the\ provided\ information.\r\n\ \r\n\ @param\ text\ The\ text\ to\ be\ displayed\ as\ a\ statistic.\r\n
+numComments=4

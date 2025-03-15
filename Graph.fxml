@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerGraph">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="548.0">
+         <children>
+            <Label layoutX="265.0" layoutY="38.0" prefHeight="27.0" prefWidth="71.0" text="Graph">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <AnchorPane fx:id="graphMiniPanel" layoutX="97.0" layoutY="79.0" prefHeight="314.0" prefWidth="399.0" />
+            <Button layoutX="57.0" layoutY="88.0" mnemonicParsing="false" onAction="#decrementPanel" prefHeight="297.0" prefWidth="40.0" styleClass="statistics__button" stylesheets="@PPA/Covid-copy-2/styles.css" text="&lt;" />
+            <Button layoutX="497.0" layoutY="98.0" mnemonicParsing="false" onAction="#incrementPanel" prefHeight="289.0" prefWidth="40.0" styleClass="statistics__button" stylesheets="@PPA/Covid-copy-2/styles.css" text="&gt;" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

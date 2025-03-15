@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Statistics
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Statistics\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\ \r\n
+comment1.params=
+comment1.target=Statistics()
+comment1.text=\r\n\ Constructor\r\n
+comment2.params=
+comment2.target=Statistics\ getInstance()
+comment3.params=
+comment3.target=int\ totalDeath()
+comment4.params=
+comment4.target=int\ averageCases()
+comment5.params=
+comment5.target=int\ averageTransit()
+comment6.params=records
+comment6.target=int\ averageWorkPlace(java.util.ArrayList)
+numComments=7

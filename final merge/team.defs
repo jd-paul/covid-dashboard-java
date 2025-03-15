@@ -1,0 +1,17 @@
+#Wed Mar 27 16:38:06 GMT 2024
+bluej.teamsettings.ignore1=.*\\.class
+bluej.teamsettings.yourName=Ahmed Almuallem
+bluej.teamsettings.git.server=github.kcl.ac.uk
+bluej.teamsettings.yourEmail=k21212456@kcl.ac.uk
+bluej.teamsettings.git.repositoryPrefix=/k21190412/ppa-cw4-COVID_DATA
+bluej.teamsettings.vcs=git
+bluej.teamsettings.user=k21212456
+bluej.teamsettings.ignore3=team\\.defs
+bluej.teamsettings.ignore2=bluej\\.pkh
+bluej.teamsettings.ignore5=.*\\~
+bluej.teamsettings.git.branch=fix-coupling
+bluej.teamsettings.ignore4=.*\\.ctxt
+bluej.teamsettings.ignore7=.*\\\#backup
+bluej.teamsettings.ignore6=.*\\\#
+bluej.teamsettings.git.protocol=https
+bluej.teamsettings.ignore8=\\.DS_Store

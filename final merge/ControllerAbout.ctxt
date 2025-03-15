@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ControllerAbout
+comment0.text=\r\n\ The\ ControllerAbout\ class\ controls\ the\ display\ of\ date\ information\ in\ the\ About\ panel.\r\n\ It\ updates\ the\ labels\ showing\ the\ start\ and\ end\ dates\ based\ on\ changes\ in\ the\ underlying\ data.\r\n\ \r\n\ @author\ John\ Paul\ San\ Diego\r\n\ @author\ Jia\ Cheng\ Lim\r\n\ @author\ Argya\ Pramusakti\r\n\ @author\ Ahmed\ Almuallem\r\n
+comment1.params=
+comment1.target=ControllerAbout()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ ControllerAbout\r\n
+comment2.params=
+comment2.target=ControllerAbout\ getInstance()
+comment2.text=\r\n\ Singleton\ getInstance()\ method\r\n\ @return\ The\ singleton\ instance\ of\ ModelMain\r\n
+comment3.params=start\ end
+comment3.target=void\ updateDate(java.time.LocalDate,\ java.time.LocalDate)
+comment3.text=\r\n\ Updates\ the\ labels\ displaying\ start\ and\ end\ dates.\r\n\ This\ method\ is\ accessed\ by\ ControllerMain\ to\ update\ the\ date\ information.\r\n\ \r\n\ @param\ start\ The\ start\ date\ to\ be\ displayed.\r\n\ @param\ end\ The\ end\ date\ to\ be\ displayed.\r\n
+numComments=4

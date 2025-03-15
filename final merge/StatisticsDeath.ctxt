@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=StatisticsDeath
+comment1.params=date\ deaths
+comment1.target=StatisticsDeath(java.time.LocalDate,\ int)
+comment2.params=
+comment2.target=java.time.LocalDate\ getDate()
+comment3.params=
+comment3.target=int\ getDeaths()
+comment4.params=other
+comment4.target=int\ compareTo(StatisticsDeath)
+numComments=5

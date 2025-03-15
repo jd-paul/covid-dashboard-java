@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Graphs
+comment0.text=\r\n\ The\ Graphs\ class\ is\ responsible\ for\ processing\ Covid\ data\ and\ generating\ statistics\ for\ graphical\ representation.\r\n\ It\ includes\ methods\ to\ parse\ Covid\ data,\ aggregate\ death\ tolls,\ and\ manage\ instances\ of\ statistics.\r\n\ \r\n\ @author\ John\ Paul\ San\ Diego\r\n\ @author\ Jia\ Cheng\ Lim\r\n\ @author\ Argya\ Pramusakti\r\n\ @author\ Ahmed\ Almuallem\r\n\ \r\n
+comment1.params=
+comment1.target=Graphs()
+comment1.text=\r\n\ Constructor\ for\ Graphs\ class.\r\n
+comment2.params=
+comment2.target=java.util.ArrayList\ deathTollParse()
+comment2.text=\r\n\ Parses\ Covid\ data\ to\ generate\ a\ list\ of\ death\ statistics.\r\n\ Data\ points\ are\ added\ within\ the\ specified\ date\ range.\r\n\ \r\n\ @return\ ArrayList\ of\ StatisticsDeath\ objects\r\n
+comment3.params=
+comment3.target=java.util.ArrayList\ deathTollAggregated()
+comment3.text=\r\n\ Aggregates\ death\ tolls\ by\ combining\ data\ of\ the\ same\ date.\r\n\ \r\n\ @return\ ArrayList\ of\ aggregated\ StatisticsDeath\ objects\r\n
+comment4.params=
+comment4.target=Graphs\ getInstance()
+comment4.text=\r\n\ Singleton\ getInstance()\ method\ to\ retrieve\ the\ singleton\ instance\ of\ Graphs.\r\n\ \r\n\ @return\ The\ singleton\ instance\ of\ Graphs\r\n
+numComments=5

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="rootLayout" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerMain">
+   <children>
+      <AnchorPane fx:id="leftPane" layoutX="-1.0" layoutY="25.0" prefHeight="575.0" prefWidth="240.0" styleClass="main__left-pane" stylesheets="@styles.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="25.0">
+         <children>
+            <Button fx:id="btnAbout" alignment="BASELINE_LEFT" layoutY="117.0" mnemonicParsing="false" onAction="#handlePanelOne" prefHeight="42.0" prefWidth="240.0" styleClass="main__unselected-transparent-button" text="ABOUT">
+               <font>
+                  <Font name="Poppins Regular" size="20.0" />
+               </font>
+               <padding>
+                  <Insets left="25.0" />
+               </padding>
+            </Button>
+            <Text layoutX="71.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu">
+               <font>
+                  <Font name="Poppins Black" size="33.0" />
+               </font>
+            </Text>
+            <Button fx:id="btnMap" alignment="BASELINE_LEFT" layoutY="159.0" mnemonicParsing="false" onAction="#handlePanelTwo" prefHeight="42.0" prefWidth="240.0" styleClass="main__unselected-transparent-button" text="MAP">
+               <font>
+                  <Font name="Poppins Regular" size="20.0" />
+               </font>
+               <padding>
+                  <Insets left="25.0" />
+               </padding>
+            </Button>
+            <Button fx:id="btnStat" alignment="BASELINE_LEFT" layoutY="201.0" mnemonicParsing="false" onAction="#handlePanelThree" prefHeight="42.0" prefWidth="240.0" styleClass="main__unselected-transparent-button" text="STATISTICS">
+               <font>
+                  <Font name="Poppins Regular" size="20.0" />
+               </font>
+               <padding>
+                  <Insets left="25.0" />
+               </padding>
+            </Button>
+            <ImageView fitHeight="160.0" fitWidth="270.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0">
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+               <image>
+                  <Image url="@images/img_accent.jpg" />
+               </image>
+            </ImageView>
+            <Group layoutX="33.0" layoutY="364.0" AnchorPane.bottomAnchor="179.0" />
+            <Button layoutX="33.0" layoutY="367.0" mnemonicParsing="false" onAction="#decrementPanel" prefHeight="30.0" prefWidth="30.0" styleClass="main__navigate-button" stylesheets="@styles.css" text="&lt;" AnchorPane.bottomAnchor="177.0" />
+            <Label layoutX="68.0" layoutY="371.0" styleClass="text-h2" text="Panel Cycler" AnchorPane.bottomAnchor="181.0" />
+            <Button layoutX="177.0" layoutY="368.0" mnemonicParsing="false" onAction="#incrementPanel" prefHeight="30.0" prefWidth="30.0" styleClass="main__navigate-button" stylesheets="@styles.css" text="&gt;" AnchorPane.bottomAnchor="177.0" />
+            <AnchorPane layoutY="408.0" prefHeight="7.0" prefWidth="240.0" style="-fx-background-color: #1d6fb7;" styleClass="main__left-pane" stylesheets="@styles.css" AnchorPane.bottomAnchor="160.0" />
+            <Button fx:id="btnFour" alignment="BASELINE_LEFT" layoutY="243.0" mnemonicParsing="false" onAction="#handlePanelThree" prefHeight="42.0" prefWidth="240.0" styleClass="main__unselected-transparent-button" text="PANEL FOUR">
+               <font>
+                  <Font name="Poppins Regular" size="20.0" />
+               </font>
+               <padding>
+                  <Insets left="25.0" />
+               </padding>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="rightPane" layoutX="240.0" layoutY="75.0" prefHeight="525.0" prefWidth="560.0" styleClass="main__right-pane" stylesheets="@styles.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="240.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="75.0" />
+      <AnchorPane layoutX="240.0" layoutY="69.0" prefHeight="7.0" prefWidth="560.0" style="-fx-background-color: #1d6fb7;" styleClass="main__left-pane" stylesheets="@styles.css" AnchorPane.leftAnchor="240.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="69.0" />
+      <AnchorPane layoutX="240.0" layoutY="27.0" prefHeight="42.0" prefWidth="560.0" style="-fx-background-color: #fddd02;" AnchorPane.leftAnchor="240.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="27.0">
+         <children>
+            <DatePicker fx:id="endDatePicker" layoutX="436.0" layoutY="9.0" onAction="#handleEndDatePicker" prefHeight="25.0" prefWidth="110.0" styleClass="date-picker" stylesheets="@styles.css" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="9.0" />
+            <DatePicker fx:id="startDatePicker" layoutX="276.0" layoutY="9.0" onAction="#handleStartDatePicker" prefHeight="25.0" prefWidth="110.0" styleClass="date-picker" stylesheets="@styles.css" AnchorPane.rightAnchor="174.0" AnchorPane.topAnchor="9.0" />
+            <Label layoutX="234.0" layoutY="11.0" styleClass="text-paragraph" stylesheets="@styles.css" text="From:" AnchorPane.rightAnchor="289.0" AnchorPane.topAnchor="11.0" />
+            <Label layoutX="413.0" layoutY="12.0" styleClass="text-paragraph" stylesheets="@styles.css" text="To:" AnchorPane.rightAnchor="129.0" AnchorPane.topAnchor="12.0" />
+            <Label fx:id="warning" layoutX="14.0" layoutY="13.0" prefHeight="18.0" prefWidth="174.0" stylesheets="@styles.css" text="Choose start and end date" />
+         </children>
+      </AnchorPane>
+      <MenuBar prefHeight="25.0" prefWidth="800.0" stylesheets="@styles.css" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>

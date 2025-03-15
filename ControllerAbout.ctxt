@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ControllerAbout
+comment1.params=
+comment1.target=ControllerAbout()
+comment2.params=
+comment2.target=ControllerAbout\ getInstance()
+comment3.params=start\ end
+comment3.target=void\ updateDate(java.time.LocalDate,\ java.time.LocalDate)
+comment3.text=\r\n\ This\ update\ method\ will\ accessed\ by\ ControllerMain\r\n
+numComments=4

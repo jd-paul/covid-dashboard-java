@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=StatisticsBorough
+comment0.text=\r\n\ the\ StatisticsBorough\ calculate\ and\ give\ the\ data\ that\ ControllerMap\ need\ to\ make\ a\ certain\ condition\ to\ make\ the\ backend\ of\ the\ map.\r\n\ @author\ John\ Paul\ San\ Diego\r\n\ @author\ Jia\ Cheng\ Lim\r\n\ @author\ Argya\ Pramusakti\r\n\ @author\ Ahmed\ Almuallem\r\n
+comment1.params=
+comment1.target=StatisticsBorough()
+comment1.text=\r\n\ Constructor\r\n
+comment2.params=
+comment2.target=StatisticsBorough\ getInstance()
+comment3.params=borough
+comment3.target=int\ averageCasesBorough(java.lang.String)
+comment3.text=\r\n\ Calculates\ the\ average\ number\ of\ COVID\ cases\ for\ a\ specific\ borough\ within\ a\ given\ time\ frame.\r\n\ \r\n\ @param\ borough\ The\ name\ of\ the\ borough\ for\ which\ to\ calculate\ the\ average\ cases.\r\n\ @return\ The\ average\ number\ of\ COVID\ cases\ for\ the\ specified\ borough.\r\n
+comment4.params=borough
+comment4.target=java.lang.Object[][]\ boroughData(java.lang.String)
+comment4.text=\r\n\ Retrieves\ COVID\ data\ for\ a\ specific\ borough\ within\ a\ given\ time\ frame.\r\n\ \r\n\ @param\ borough\ The\ name\ of\ the\ borough\ for\ which\ to\ retrieve\ data.\r\n\ @return\ A\ 2D\ array\ containing\ COVID\ data\ for\ the\ specified\ borough.\r\n
+numComments=5

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ControllerSubStat
+comment1.params=
+comment1.target=ControllerSubStat()
+comment1.text=\r\n\ Constructor\r\n
+comment2.params=
+comment2.target=ControllerSubStat\ getInstance()
+comment3.params=text
+comment3.target=void\ updateStatistic(java.lang.String)
+comment3.text=\r\n\ This\ update\ method\ will\ update\ the\ relevant\ texts\r\n
+numComments=4
