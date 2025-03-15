@@ -1,4 +1,2 @@
-PROJECT TITLE: AirBnB London Data Set Loader
-PURPOSE OF PROJECT: To load the AirBnB London data set from the provided csv file into a Java data structure
-HOW TO START THIS PROJECT: Use the method 'load' in the the class 'AirbnbDataLoader'
-AUTHORS: KCL Informatics, PPA
+# COVID-19 Statistics Dashboard
+The **COVID-19 Statistics Dashboard** is a Java-based application that visualizes COVID-19 data in an interactive and user-friendly interface. It retrieves real-time or historical COVID-19 statistics, processes large datasets efficiently, and presents key metrics such as confirmed cases, recoveries, and fatalities.
